@@ -1,0 +1,84 @@
+<!-- paste full path of index.html (conventional name for homepage) into search bar or click open file -->
+<!DOCTYPE html> <!-- boiler plate = template -->
+<html lang="en" dir="ltr">
+<!-- right click, "view page source" to display html of a webpage -->
+
+<head>
+  <!-- contains international chars, go to unicode-table.com to paste emojis -->
+  <meta charset="utf-8">
+  <!-- what search engines display in search results to describe each site -->
+  <meta name="description" content="Lily Li's Personal Site is a practice project from an Udemy Web Dev course">
+  <title>Lily Li's Personal Site</title>
+</head>
+
+<body>
+  <table>
+    <tr>
+      <!-- alternative text to describe text in case image doesn't load, also helps google determine site info and image searches
+            - could also get img url from *photobucket upload if not already online (social media)
+            - could also download and add png to current folder to not depend on url server to load image
+            - *crop-circle.imageonline.co -->
+      <td><img src="portrait.png" alt="Lily's Profile Picture" width=></td>
+      <td>
+        <h1>Lily Li ☀️</h1>
+        <p><em><strong>Associate Software Devloper</strong> at Veeva Systems</em></p>
+        <!-- anchor tag creates hyperlinks-->
+        <p><a href="https://www.linkedin.com/in/lily-shurui-li-00111a177/">LinkedIn</a></p>
+        <p>[Personal Bio Placeholder]</p>
+      </td>
+    </tr>
+  </table>
+
+  <hr>
+  <h3>Education</h3>
+  <ul>
+    <li>List Item 1</li>
+    <li>List Item 2</li>
+  </ul>
+  <hr>
+  <h3>Work Experience</h3>
+  <table cellspacing ="10">
+    <thead>
+      <tr>
+        <th>Date</th>
+        <!--table header cell (bolded) -->
+        <th>Position</th>
+        <th>Company</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <!-- table row -->
+        <td>2020</td> <!-- table cell (columns are defined by row cells) -->
+        <td>Associate Software Engineer</td>
+        <td>Veeva Systems</td>
+      </tr>
+    </tbody>
+  </table>
+  <hr>
+  <h3>Skills</h3>
+  <table cellspacing ="10">
+    <tr>
+      <td>Back End Software Development</td>
+      <td>⭐️⭐️⭐️</td>
+    </tr>
+    <tr>
+      <td>Front End Web Development</td>
+      <td>⭐️</td>
+    </tr>
+    <tr>
+      <td>Singing</td>
+      <td>⭐️⭐️⭐️⭐️</td>
+    </tr>
+    <tr>
+      <td>Painting</td>
+      <td>⭐️⭐️⭐️</td>
+    </tr>
+  </table>
+  <hr>
+    <a href="hobbies.html">Hobbies</a>
+    <a href="contact-me.html">Contact Me</a>
+
+</body>
+
+</html>
